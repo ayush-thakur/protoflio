@@ -1,0 +1,198 @@
+
+
+html{-webkit-font-smoothing:antialiased;}
+.container {
+	max-width: 1230px;
+	padding-left: 20px;
+	padding-right: 20px;
+	box-sizing: border-box;
+	width: 100%;
+	margin: 0 auto;
+}
+a{color:#65a42d;text-decoration:none;}
+a:hover{color:#65a42d; text-decoration:underline;}
+.column-clear{ clear:both;}
+.title-page{font-size:40px;margin:50px 0px 60px 0px;color:#151515;}
+.goto{float:right;width:130px;margin:-80px 30px 0px 0px;}
+
+/**** PORTFOLIO STYLES*****/
+.portfolio-categ{margin-bottom:30px;}
+.portfolio-categ li{display:inline;margin-right:10px;}
+.image-block{ display:block;position: relative;}
+.home-portfolio-text{margin-top:10px;}
+li.active a{ text-decoration:underline;}
+/**** END PORTFOLIO STYLES*****/
+
+.portfolio-categ {
+	margin-bottom: 30px;
+	background: #DA2985;
+	padding: 22px 34px;
+	border-radius: 10px;
+	display: flex;
+}
+.portfolio-categ .catgiore {
+	width: 16%;
+}
+.portfolio-categ .catgiore li {
+	color: white;
+	font-size: 27px;
+	text-transform: capitalize;
+	text-decoration: underline;
+	font-weight: 600;
+}
+
+.portfolio-categ .item {
+	width: 80%;
+	display: flex;
+	justify-content: space-evenly;
+}
+.portfolio-categ .item {
+	width: 80%;
+	display: flex;
+	justify-content: space-evenly;
+}
+.portfolio-categ li {
+	align-self: center;
+}
+.portfolio-categ .item li a {
+	font-size: 18px;
+	color: white;
+}
+.portfolio-area {
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 6px;
+	justify-content: space-between;
+}
+.portfolio-area li .image-zoom {
+	display: block;
+	width: 100%;
+}
+.portfolio-area li .image-zoom img {
+	width: 100%;
+	height: 327px;
+	position: relative;
+	overflow: hidden;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+.portfolio-area li {
+	width: 31%;
+	list-style: none;
+	border: 1px solid #d5d5d5;
+	border-radius: 4px 4px 4px 4px;
+	background: #FFFFFF;
+	border-radius: 10px;
+	margin-bottom: 17px;
+	position: relative;
+	overflow: hidden;
+}
+.protofolo-text {
+	text-align: center;
+	background: #DA2985;
+	padding: 4px 0;
+	border-radius: 10px;
+	width: 60%;
+	margin: 15px auto;
+}
+.protofolo-text h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+	color: white;
+	padding: 6px 0;
+}
+
+
+.overlay {
+	background: #DA2985;
+	border-radius: 10px;
+	position: absolute;
+	width: 100%;
+	height: 20%;
+	text-align: center;
+	bottom: -100%;
+	top: auto;
+}
+.image-block:hover .overlay {
+	bottom: 0;
+	transition: all ease-in-out 0.5s;
+}
+.overlay-button a {
+	font-size: 22px;
+    color: white;
+    pointer-events: unset;
+}
+.overlay-button {
+	padding: 19px 0;
+}
+.pp_description {
+	text-align: center;
+}
+.pp_description h2 {
+	margin-bottom: 4px;
+	margin-top: 0;
+	background: #DA2985;
+	color: white;
+	padding: 13px 0;
+	border-radius: 26px;
+	font-size: 25px;
+	margin-top: 1px;
+    margin-bottom: 13px;
+    
+}
+.pp_description {
+	padding-bottom: 13px;
+	font-size: 15px;
+	line-height: 19px;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	margin: 0 auto !important;
+}
+.pp_nav p {
+	float: left;
+	margin: -2px 4px !important;
+}
+
+
+
+.pp_pic_holder.light_rounded {
+	width: 80% !important;
+	left: 0 !important;
+	margin: 0 auto !important;
+	right: 0;
+}
+
+
+.pp_pic_holder.light_rounded .pp_fade {
+	display: flex !important;
+	width: 100%;
+}
+
+.pp_content {
+	height: auto !important;
+}
+.pp_content_container .pp_details {
+	align-self: center;
+}
+.pp_nav {
+	clear: left;
+	float: left;
+	margin: 3px 0 0 0;
+	padding-left: 11px;
+	width: 100%;
+	text-align: center !important;
+	display: flex;
+	justify-content: center;
+}
+div.light_rounded .pp_close {
+	width: 75px;
+	height: 22px;
+	background: url(../images/prettyPhoto/light_rounded/sprite.png) -1px -1px no-repeat;
+	cursor: pointer;
+	position: absolute;
+	top: -56px;
+	right: 0;
+}
